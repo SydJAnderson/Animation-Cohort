@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
-//Name: 3D_Unit2_SydAnderson_v01.ma
-//Last modified: Fri, Sep 04, 2026 08:48:24 PM
+//Name: 3D_brickpath_SydAnderson_v01.ma
+//Last modified: Fri, Sep 04, 2026 08:51:37 PM
 //Codeset: UTF-8
 requires maya "2027";
 requires "mtoa" "5.6.2";
@@ -11,18 +11,18 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202606171832-bee0ff2c7e";
 fileInfo "osv" "Mac OS X 14.6.1";
-fileInfo "UUID" "C1F8835B-BB44-E493-2D10-2A9D44241BE2";
+fileInfo "UUID" "EDAFA6E9-114D-F69C-3255-0CB72A7BF4E9";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "760F8BEC-4FF9-F782-8FFB-D895B57E95C5";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 712.54471309463224 357.93642375108521 -802.01853004219583 ;
-	setAttr ".r" -type "double3" -39.938352728450489 -574.59999999995898 0 ;
+	setAttr ".t" -type "double3" 414.0353610633768 781.72188982963235 659.68923397275273 ;
+	setAttr ".r" -type "double3" -50.138352727604655 -716.99999999995725 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "3C3FF431-40A7-3A83-454F-0AA5B73F7C6C";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 613.13541014823545;
+	setAttr ".coi" 1169.8057172630406;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -3938,4 +3938,4 @@ connectAttr "groupId4.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId5.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId6.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId7.msg" ":initialShadingGroup.gn" -na;
-// End of 3D_Unit2_SydAnderson_v01.ma
+// End of 3D_brickpath_SydAnderson_v01.ma

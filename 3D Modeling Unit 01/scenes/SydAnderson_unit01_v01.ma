@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
 //Name: SydAnderson_unit01_v01.ma
-//Last modified: Sun, Aug 30, 2026 05:10:48 PM
+//Last modified: Sun, Aug 30, 2026 05:16:12 PM
 //Codeset: UTF-8
 requires maya "2027";
 requires -nodeType "UsdDefaultSettings" -dataType "pxrUsdStageData" "mayaUsdPlugin" "0.37.0";
@@ -10,12 +10,12 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202606171832-bee0ff2c7e";
 fileInfo "osv" "Mac OS X 14.6.1";
-fileInfo "UUID" "21001046-3047-6B8B-05E9-66998CB989D5";
+fileInfo "UUID" "539C218B-364F-255C-AD36-F7A85A34EB3F";
 createNode transform -s -n "persp";
 	rename -uid "A0017C3A-8C41-F592-5BF3-9D904EB5A8D5";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 24.590301188803817 4.8524286798388863 2.6686862338509343 ;
-	setAttr ".r" -type "double3" -7.5383527296168689 84.199999999915775 7.8682743433088506e-15 ;
+	setAttr ".t" -type "double3" 14.165615609790434 3.2567816055100556 -20.647871901788925 ;
+	setAttr ".r" -type "double3" -3.9383527301727184 144.59999999988963 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "2A9DF4AD-6F4D-D738-5D26-1E9E77B34956";
 	setAttr -k off ".v" no;
